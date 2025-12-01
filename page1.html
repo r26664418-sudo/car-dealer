@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Cars Showroom</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Elite Cars</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#cars">Cars</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Elite Cars Showroom</h1>
+        <p>Discover your dream car today.</p>
+        <button onclick="scrollToSection('cars')">View Cars</button>
+    </section>
+
+    <section id="cars" class="car-list">
+        <h2>Our Cars</h2>
+        <div class="cars-container">
+            <div class="car-card">
+                <img src="https://via.placeholder.com/300x200?text=Sedan" alt="Sedan">
+                <h3>Luxury Sedan</h3>
+                <p>$50,000</p>
+                <button>Learn More</button>
+            </div>
+            <div class="car-card">
+                <img src="https://via.placeholder.com/300x200?text=SUV" alt="SUV">
+                <h3>Family SUV</h3>
+                <p>$60,000</p>
+                <button>Learn More</button>
+            </div>
+            <div class="car-card">
+                <img src="https://via.placeholder.com/300x200?text=Sports" alt="Sports Car">
+                <h3>Sports Car</h3>
+                <p>$100,000</p>
+                <button>Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a premier car showroom offering the latest models with exceptional service.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Elite Cars Showroom. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
